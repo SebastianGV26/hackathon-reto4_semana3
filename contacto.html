@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfairisplay:wght@700&family=Raleway:wght@400;700;900&display=swap"rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
@@ -30,7 +34,7 @@
 
     <section>
         <div class="contacto">
-            <h2>Contacto</h2>
+            <h2 class="titulo">Contacto</h2>
 
             <form action="" class="form">
                 <fieldset>
@@ -39,19 +43,19 @@
                     </legend>
                     <div class="formulario">
                         <label>Nombre:</label>
-                        <input type="text" required placeholder="Tu Nombre">
+                        <input class="text" type="text" required placeholder="Tu Nombre">
                     </div>
                     <div class="formulario">
                         <label>Asunto:</label>
-                        <input type="text" required placeholder="Tu Asunto">
+                        <input class="text" type="text" required placeholder="Tu Asunto">
                     </div>
                     <div class="formulario">
                         <label>E-mail:</label>
-                        <input type="email" required placeholder="Tu Email">
+                        <input class="text" type="email" required placeholder="Tu Email">
                     </div>
                     <div class="formulario">
                         <label>Teléfono:</label>
-                        <input type="number" required placeholder="Tu Teléfono">
+                        <input class="text" type="number" required placeholder="Tu Teléfono">
                     </div>
                     <div class="formulario">
                         <label>Mensaje:</label>
@@ -89,7 +93,7 @@
                         </div>
                         <div class="formulario">
                             <label>Categoría de Interés:</label>
-                            <input type="text">
+                            <input class="text" type="text">
                         </div>
                 </fieldset>
                 <button type="submit" class="enviar">ENVIAR FORMULARIO</button>
@@ -99,7 +103,7 @@
 
 
     <footer class="footer">
-        <div class="pie">
+        <section class="pie">
             <div class="categorias_footer">
                 <h3>Categorías</h3>
                 <nav class="menu_footer">
@@ -128,9 +132,9 @@
                     <a href="#">Confianza y Seguridad</a>
                 </nav>
             </div>
-        </div>
+        </section>
         <div class="derechos">
-            <h3>Todos los derechos Reservados. TiendaMuebles</h3>
+            <p>Todos los derechos Reservados. TiendaMuebles</p>
         </div>
     </footer>
 </body>
